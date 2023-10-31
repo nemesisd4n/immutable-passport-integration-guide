@@ -20,6 +20,8 @@
 
 In the dynamic realm of blockchain technology, a beacon of innovation known as **Immutable Passport** emerges, purpose-built to revolutionize gaming applications. This ingenious tool equips developers with the means to seamlessly infuse blockchain-based authentication and transaction capabilities into their gaming projects, ushering in a new era of security and functionality.
 
+![Immutable Passport](https://assets-global.website-files.com/646557ee455c3e16e4a9bcb9/646557ee455c3e16e4a9c260_passport_3.jpeg)
+
 Welcome to our comprehensive guide on **Immutable Passport Integration**. Whether you're a game developer eager to fortify your application's security and enhance its flexibility, or a tech enthusiast poised to explore the possibilities of blockchain-driven gaming, this guide is your gateway to unlocking the full potential of Immutable Passport.
 
 Within these well-crafted steps, we'll guide you through the entire journey, from creating a basic application to orchestrating transactions with Immutable Passport. By the time you've completed this guide, you'll have the skills to seamlessly integrate Immutable Passport's potent features into your gaming application, making it more robust and secure.
@@ -88,9 +90,11 @@ Before you begin integrating Immutable Passport into your application, you'll ne
    export default Home;
    ```
 
-   # Start your Next.js application
+   **Start your Next.js application**
 
+   ```bash
    npm run dev
+   ```
 
    In case you get error while running the command, perform the below operations,
 
@@ -124,7 +128,6 @@ Before you begin integrating Immutable Passport into your application, you'll ne
 9. Start your Next.js application:
 
    ```bash
-   # Start your Next.js application
    npm run dev
    ```
 
