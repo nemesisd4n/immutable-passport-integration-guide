@@ -404,27 +404,32 @@ const initiatePassportTransaction = async (transactionData) => {
   }
 };
 
-// Call the function with the required transaction data when initiating a transaction
+// Sample transaction data (customize as needed)
 const transactionData = {
-  // Define the transaction data and parameters here
-  // For example: to, value, data, gas, etc.
+  to: "0xYourRecipientAddress", // Recipient's Ethereum address
+  value: "0.1", // Amount to send (in Ether)
+  data: "0xabcdef123456", // Transaction data (hex encoded)
+  gas: 21000, // Gas limit
+  // Add more parameters as needed
 };
 
-// Call the function to initiate the transaction
+// Call the function to initiate the transaction with the provided data
 initiatePassportTransaction(transactionData);
 ```
 
+Please replace `"0xYourRecipientAddress"`, `"0.1"`, `"0xabcdef123456"`, and `21000` with the actual transaction details you want to use. This code serves as a template, and you can customize the `transactionData` object with your specific transaction parameters.
+
 **Explanation:**
 
-- The code above defines the `initiatePassportTransaction` function, which initiates a transaction using Passport.
+- In the code snippet above, we define the `initiatePassportTransaction` function, which is responsible for initiating a transaction using Immutable Passport.
 
-- It uses the `initiateTransaction` function and passes the required transaction data as a parameter.
+- This function utilizes the `initiateTransaction` function, an essential part of the Immutable Passport library, to send the transaction data to the blockchain.
 
-- You need to customize the `transactionData` object with the specific data and parameters required for your transaction, such as the recipient address, transaction value, data payload, gas settings, and more.
+- To use this code effectively, you must customize the `transactionData` object. This object serves as a container for the specific data and parameters required for your transaction. It includes details such as the recipient's Ethereum address, the transaction value (in Ether), the data payload (hex-encoded), the gas limit, and other relevant parameters. It's crucial to tailor this object to your specific transaction needs.
 
-- Proper error handling is included to manage any issues that may occur during transaction initiation.
+- The code also incorporates error handling to gracefully manage any issues that may arise during the initiation of the transaction. Proper error handling ensures that unexpected situations are handled effectively.
 
-By following these steps and using the provided code snippet, you'll be able to initiate transactions from Passport in your application. Make sure to populate the `transactionData` object with the appropriate values for your use case.
+By following this code and customizing the `transactionData` object with the necessary values for your use case, you can seamlessly initiate transactions using Immutable Passport within your application. This process is an integral part of interacting with blockchain technology, and ensuring that the transaction details are accurate is vital to the success of your transactions.
 
 ## Conclusion
 
