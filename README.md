@@ -88,6 +88,12 @@ Before you begin integrating Immutable Passport into your application, you'll ne
    export default Home;
    ```
 
+   # Start your Next.js application
+
+   npm run dev
+
+   In case you get error while running the command, perform the below operations,
+
 7. Update your `package.json` to include the "dev" script. Open the `package.json` file and add the "scripts" section like this:
 
    ```json
